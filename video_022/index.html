@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        html{ /* html is root element*/
+            font-size: 12px;
+        }
+
+        .box{
+            border: 2px solid black;
+            /* width: 1276px;
+            height: 593px; */
+            /* height: 20px; */
+            width: 80vw;
+            height: 10vh;
+            margin: auto;
+            background-color: aquamarine;
+        }
+        .container{
+            border: 2px solid black;
+            /* width: 1276px;
+            height: 593px; */
+            /* height: 20px; */
+            width: 80vw;
+            min-height: 80vh;
+            margin: 23px auto;
+            font-size: 20px;
+            background-color: aquamarine;
+        }
+
+        .container > div{
+            font-size: 2rem;
+            border: 2px solid red;
+            width: 50%;
+        }
+
+        .container > div > div{
+            border: 2px solid blue;
+            width: 50%;
+        }
+
+        .my_cont{
+            /* background-color: red; */
+            box-sizing: border-box;
+            margin: 23px auto;
+            color: yellow;
+            font-size: 22px;
+            /* width: 100vmin; */
+            width: 80vw;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        This is a box
+    </div>
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum suscipit, reprehenderit voluptatem minima fugit modi numquam molestiae doloribus ipsum, veniam enim ullam itaque!
+
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repudiandae tempore perferendis pariatur, inventore quae culpa vitae alias animi maiores delectus fugiat eaque reprehenderit voluptatem velit amet praesentium enim mollitia, provident quam. Nostrum, impedit.
+            </div>
+        </div>
+    </div>
+
+    <div class="my_cont">
+        I am another cont
+    </div>
+</body>
+</html>
